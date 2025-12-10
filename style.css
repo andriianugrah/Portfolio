@@ -282,12 +282,12 @@ section {
     margin: 0 auto;
 }
 
-/* PERBAIKAN: Mengurangi padding-top untuk section selain home */
+/* PERBAIKAN: Menyamakan whitespace dengan section home */
 #about,
 #projects,
 #cv,
 #contact {
-    padding-top: 100px;
+    padding-top: 80px;
 }
 
 .section-title {
