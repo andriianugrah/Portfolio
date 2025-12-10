@@ -282,12 +282,21 @@ section {
     margin: 0 auto;
 }
 
-/* PERBAIKAN: Menghilangkan whitespace untuk section selain home */
-#about,
-#projects,
-#cv,
+/* PERBAIKAN: Memisahkan padding-top setiap section agar rapat dengan navbar */
+#about {
+    padding-top: 70px;
+}
+
+#projects {
+    padding-top: 70px;
+}
+
+#cv {
+    padding-top: 70px;
+}
+
 #contact {
-    padding-top: 0;
+    padding-top: 70px;
 }
 
 .section-title {
